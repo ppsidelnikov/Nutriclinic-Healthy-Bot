@@ -1,0 +1,9 @@
+__*
+
+.env
+.env.prod
+.env.testing
+.vscode/
+.idea/
+.DS_Store
+venv/
