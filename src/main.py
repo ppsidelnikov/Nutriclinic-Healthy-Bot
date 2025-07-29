@@ -1,9 +1,9 @@
 from bot_setup import dp, bot
-#### место для импорта хендлеров
+from handlers.gpt_answer_handlers import router as gpt_router
 from middlewares import LoggingMiddleware
 
 async def main():
-    dp.include_routers() ### сюда список хендлеров
+    dp.include_routers(gpt_router) ### сюда список хендлеров
     dp.update.middleware(LoggingMiddleware())
     await dp.start_polling(bot)
 
