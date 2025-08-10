@@ -20,6 +20,16 @@ class Config:
     YANDEX_CLOUD_FOLDER_ID = os.getenv('YANDEX_CLOUD_FOLDER_ID')
     YANDEX_GPT_PATH = os.getenv('YANDEX_GPT_PATH')
 
+    #ProxyAPI
+    PROXY_API_TEST_KEY = os.getenv('PROXY_API_TEST_KEY')
+
+    #USDA
+    USDA_API_KEY = os.getenv('USDA_API_KEY')
+
+    #FatSecret
+    FATSECRET_CLIENT_ID = os.getenv('FATSECRET_CLIENT_ID')
+    FATSECRET_CLIENT_SECRET = os.getenv('FATSECRET_CLIENT_SECRET')
+
     #Postgres
     DB_HOST=os.getenv('DB_HOST')
     DB_PORT=os.getenv('DB_PORT')

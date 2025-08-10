@@ -5,3 +5,4 @@ requests>=2.0
 sqlalchemy[asyncio] 
 asyncpg
 alembic
+tiktoken
