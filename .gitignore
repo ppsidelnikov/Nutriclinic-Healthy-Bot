@@ -7,3 +7,5 @@ __*
 .idea/
 .DS_Store
 venv/
+github_key
+github_key.pub
