@@ -1,4 +1,5 @@
 # Путь к .env файлу в директории src
+#!/usr/bin/env bash
 ENV_FILE="src/.env"
 
 # Проверка существования .env файла
@@ -9,7 +10,7 @@ fi
 
 # Загрузка переменных из .env файла
 echo "Загрузка переменных из $ENV_FILE..."
-source "$ENV_FILE"
+. "$ENV_FILE"
 
 # Проверка наличия необходимых переменных
 if [ -z "$DB_NAME" ] || [ -z "$DB_USER" ] || [ -z "$DB_PASSWORD" ]; then
@@ -20,14 +21,19 @@ fi
 # Вывод информации о создаваемой базе
 echo "Создание базы данных $DB_NAME для пользователя $DB_USER..."
 
-PG_SUPERUSER=$(psql -U $(whoami) -d postgres -tAc "SELECT rolname FROM pg_roles WHERE rolsuper = true LIMIT 1;" 2>/dev/null || echo "postgres")
+PG_SUPERUSER=${PG_SUPERUSER:-postgres}
 
-# Запуск SQL скрипта с переданными переменными из .env
-psql -U $PG_SUPERUSER -d postgres\
-    -v db_name="$DB_NAME" \
-    -v db_user="$DB_USER" \
-    -v db_password="'$DB_PASSWORD'" \
-    -f database/init_db.sql
+if [ "$PG_SUPERUSER" = "postgres" ]; then
+  PSQ="sudo -u postgres psql"
+else
+  PSQ="psql -U $PG_SUPERUSER"
+fi
+
+$PSQ -d postgres \
+  -v db_name="$DB_NAME" \
+  -v db_user="$DB_USER" \
+  -v db_password="'$DB_PASSWORD'" \
+  -f "database/init_db.sql"
 
 # Проверка успешности выполнения
 if [ $? -eq 0 ]; then
