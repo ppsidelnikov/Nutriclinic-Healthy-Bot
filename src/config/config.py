@@ -37,7 +37,13 @@ class Config:
     DB_USER=os.getenv('DB_USER')
     DB_PASSWORD=os.getenv('DB_PASSWORD')
 
-
+    #MiniO
+    S3_ENDPOINT = os.getenv('config.S3_ENDPOINT')
+    S3_BUCKET = os.getenv('config.S3_BUCKET')
+    S3_ACCESS_KEY = os.getenv('config.S3_ACCESS_KEY')
+    S3_SECRET_KEY = os.getenv('config.S3_SECRET_KEY')
+    S3_REGION = os.getenv('config.S3_REGION')
+    S3_FORCE_PATH_STYLE = os.getenv('config.S3_FORCE_PATH_STYLE')
 
 # Экспортируем конфиг
 config = Config()

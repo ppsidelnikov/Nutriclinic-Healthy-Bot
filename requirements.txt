@@ -6,3 +6,6 @@ sqlalchemy[asyncio]
 asyncpg
 alembic
 tiktoken
+openai
+boto3
+botocore
