@@ -1,0 +1,17 @@
+[
+  {
+    "level": 1,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_ramp_n1.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_ramp_n1.csv"
+  },
+  {
+    "level": 5,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_ramp_n5.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_ramp_n5.csv"
+  },
+  {
+    "level": 10,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_ramp_n10.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_ramp_n10.csv"
+  }
+]

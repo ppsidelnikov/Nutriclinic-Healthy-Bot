@@ -1,0 +1,8 @@
+[
+  {
+    "label": "TEST",
+    "level": 2,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_TEST_n2.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_TEST_n2.csv"
+  }
+]

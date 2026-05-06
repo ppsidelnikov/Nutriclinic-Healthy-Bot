@@ -1,0 +1,6 @@
+{"ts": 1778065299.2825115, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2293.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778065303.6705563, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 1676.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778065313.0737386, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 2270.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778065316.7059128, "user_id": "load_user_0", "scenario": "photo", "ok": true, "latency_ms": 9196.2, "error": null, "kind": "photo", "fs_calls": 0, "parsed_ok": true}
+{"ts": 1778065323.945383, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 2258.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778065324.816001, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2033.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}

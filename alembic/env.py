@@ -8,7 +8,7 @@ from alembic import context
 from dotenv import load_dotenv
 import os
 
-load_dotenv("src/.env")  # или полный путь, если требуется
+load_dotenv(".env")
 
 DB_USER = os.getenv('DB_USER')
 DB_PASSWORD = os.getenv('DB_PASSWORD')

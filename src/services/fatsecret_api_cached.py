@@ -1,4 +1,5 @@
 import sys
+import os
 from pathlib import Path
 import requests
 import base64
@@ -19,6 +20,9 @@ CLIENT_SECRET = config.FATSECRET_CLIENT_SECRET
 OAUTH_URL = "https://oauth.fatsecret.com/connect/token"
 API_URL = "https://platform.fatsecret.com/rest/server.api"
 
+_PROXY = os.getenv("HTTP_PROXY") or None
+PROXIES = {"http": _PROXY, "https": _PROXY} if _PROXY else None
+
 def get_fatsecret_token(
     client_id: str = CLIENT_ID,
     client_secret: str = CLIENT_SECRET,
@@ -29,7 +33,7 @@ def get_fatsecret_token(
         "Authorization": f"Basic {creds}",
     }
     data = {"grant_type": "client_credentials", "scope": "basic"}
-    resp = requests.post(OAUTH_URL, headers=headers, data=data, timeout=30)
+    resp = requests.post(OAUTH_URL, headers=headers, data=data, proxies=PROXIES, timeout=30)
     resp.raise_for_status()
     token = resp.json()["access_token"]
     return token
@@ -162,13 +166,12 @@ def fs_search(
         "method": "foods.search",
         "search_expression": query,
         "format": "json",
-        "region": "RU", 
-        "language": "ru",
-        "max_results": max_results
+        "max_results": max_results,
     }
-    resp = requests.get(API_URL, headers=headers, params=params, timeout=30)
+    resp = requests.get(API_URL, headers=headers, params=params, proxies=PROXIES, timeout=30)
     resp.raise_for_status()
     data = resp.json()
+    print(f"[FatSecret RAW] query='{query}' status={resp.status_code} response={data}")
     foods = (data.get("foods") or {}).get("food") or []
     # API может вернуть dict при 1 результате — нормализуем к списку
     if isinstance(foods, dict):
@@ -237,7 +240,7 @@ async def search_by_dish_name_cached(access_token: str, dish_name: str, max_resu
     """
     dish_name = (dish_name or "").strip()
     if not dish_name:
-        return []
+        return [], False
     return await fs_search_cached(access_token, dish_name, max_results=max_results, search_type="dish_name")
 
 async def search_by_ingredients_cached(access_token: str, ingredients: List[Dict[str, Any]], max_results: int = 5) -> Tuple[Dict[str, List[Dict[str, Any]]], Dict[str, bool]]:

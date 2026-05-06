@@ -14,8 +14,10 @@ DB_URL = (
     f"@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 )
 
-# Движок и сессии
-engine = create_async_engine(DB_URL, echo=True, future=True)
+# Движок и сессии. SQL-эхо отключено по умолчанию — забивает консоль
+# и нагрузочные тесты. Включается явно через DB_ECHO=1 для отладки.
+_echo = os.getenv("DB_ECHO", "0") in ("1", "true", "True")
+engine = create_async_engine(DB_URL, echo=_echo, future=True)
 AsyncSessionLocal = sessionmaker(
     bind=engine, expire_on_commit=False, class_=AsyncSession
 )

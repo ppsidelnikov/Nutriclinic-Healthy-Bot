@@ -22,6 +22,7 @@ class Config:
 
     #ProxyAPI
     PROXY_API_TEST_KEY = os.getenv('PROXY_API_TEST_KEY')
+    PROXY_API_BASE_URL = os.getenv('PROXY_API_BASE_URL', 'https://api.proxyapi.ru/openai/v1')
 
     #USDA
     USDA_API_KEY = os.getenv('USDA_API_KEY')
@@ -37,13 +38,16 @@ class Config:
     DB_USER=os.getenv('DB_USER')
     DB_PASSWORD=os.getenv('DB_PASSWORD')
 
+    #Redis
+    REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379')
+
     #MiniO
-    S3_ENDPOINT = os.getenv('config.S3_ENDPOINT')
-    S3_BUCKET = os.getenv('config.S3_BUCKET')
-    S3_ACCESS_KEY = os.getenv('config.S3_ACCESS_KEY')
-    S3_SECRET_KEY = os.getenv('config.S3_SECRET_KEY')
-    S3_REGION = os.getenv('config.S3_REGION')
-    S3_FORCE_PATH_STYLE = os.getenv('config.S3_FORCE_PATH_STYLE')
+    S3_ENDPOINT = os.getenv('S3_ENDPOINT')
+    S3_BUCKET = os.getenv('S3_BUCKET')
+    S3_ACCESS_KEY = os.getenv('S3_ACCESS_KEY')
+    S3_SECRET_KEY = os.getenv('S3_SECRET_KEY')
+    S3_REGION = os.getenv('S3_REGION')
+    S3_FORCE_PATH_STYLE = os.getenv('S3_FORCE_PATH_STYLE')
 
 # Экспортируем конфиг
 config = Config()
