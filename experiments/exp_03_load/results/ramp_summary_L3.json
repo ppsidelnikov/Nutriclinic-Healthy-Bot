@@ -1,0 +1,38 @@
+[
+  {
+    "label": "L3",
+    "level": 1,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_L3_n1.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_L3_n1.csv"
+  },
+  {
+    "label": "L3",
+    "level": 5,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_L3_n5.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_L3_n5.csv"
+  },
+  {
+    "label": "L3",
+    "level": 10,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_L3_n10.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_L3_n10.csv"
+  },
+  {
+    "label": "L3",
+    "level": 25,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_L3_n25.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_L3_n25.csv"
+  },
+  {
+    "label": "L3",
+    "level": 50,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_L3_n50.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_L3_n50.csv"
+  },
+  {
+    "label": "L3",
+    "level": 100,
+    "runs": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/results_L3_n100.jsonl",
+    "stats": "/Users/platonsidelnikov/Dev/Nutriclinic-Healthy-Bot/experiments/exp_03_load/results/stats_L3_n100.csv"
+  }
+]

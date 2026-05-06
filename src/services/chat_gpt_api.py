@@ -17,68 +17,96 @@ client = OpenAI(
     base_url="https://api.proxyapi.ru/openai/v1",
 )
 
-def get_dish_ingredients(base64_image, user_prompt='', model='gpt-4.1-mini'):
-# Используем chat.completions.create вместо responses.create
+IDENTIFY_SYSTEM_PROMPT = (
+    "Ты — фуд-аналитик. Перечисли ингредиенты, видимые на фото, на английском языке. "
+    "Только список через запятую, максимально конкретные названия "
+    '(например "boiled white rice", "chicken breast grilled", "olive oil"). '
+    "Не указывай массы. Не пиши ничего кроме списка."
+)
+
+
+async def async_identify_ingredients(base64_image: str, model: str = 'gpt-4.1-mini') -> tuple[list[int], str]:
+    """Шаг 1 двухпроходного V6 (см. §3.1 диссертации): идентификация состава блюда.
+
+    Использует короткий промпт без JSON-схемы, что заметно дешевле полного vision-вызова.
+    Возвращает ([prompt_tokens, completion_tokens], "ingredient1, ingredient2, …").
+    """
+    def _call() -> tuple[list[int], str]:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": IDENTIFY_SYSTEM_PROMPT},
+                {"role": "user", "content": [
+                    {"type": "text", "text": "Перечисли ингредиенты на фото."},
+                    {"type": "image_url", "image_url": {
+                        "url": f"data:image/jpeg;base64,{base64_image}"}},
+                ]},
+            ],
+            temperature=0,
+            max_tokens=200,
+        )
+        return (
+            [response.usage.prompt_tokens, response.usage.completion_tokens],
+            response.choices[0].message.content.strip(),
+        )
+
+    return await asyncio.to_thread(_call)
+
+
+def get_dish_ingredients(base64_image, user_prompt='', model='gpt-4.1-mini', ingredients_hint: str = ''):
+    """Шаг 2 V6 (или классический V1 при пустом hint).
+
+    Если ingredients_hint задан, добавляет его в user-сообщение как «надёжный
+    список компонентов от шага 1». Это улучшает оценку масс и КБЖУ
+    (см. §3.1: V6 wMAPE_kcal 32.7% vs V1 33.8% baseline).
+    """
+    if ingredients_hint:
+        hint_block = (
+            f"\n\nДополнительная информация: блюдо содержит следующие ингредиенты — "
+            f"{ingredients_hint}. Это надёжный список компонентов; используй его при анализе "
+            f"и оцени массы и КБЖУ с учётом того, что именно эти продукты на тарелке."
+        )
+    else:
+        hint_block = ""
+
     response = client.chat.completions.create(
         model=model,
         messages=[
                 {
                     "role": "system",
-                    "content": """
-                            Ты – эксперт-нутрициолог и фуд-аналитик.  
-                            Твоя задача – по фотографии определить состав блюда, примерный вес каждого ингредиента и общий вес порции.  
+                    "content": """Ты — эксперт-нутрициолог и фуд-аналитик.
+По фотографии определи состав блюда, примерный вес каждого ингредиента и общую КБЖУ.
 
-                            Требования:
-                            1. Отвечай только в формате JSON, без лишнего текста. Обязательно отвечай в 2 форматах: на русском и на английском языке 
-                            2. В JSON обязательно должны быть поля:
-                            - "dish" – название блюда (кратко).  
-                            - "portion_grams" – общий вес порции (в граммах, число).  
-                            - "ingredients" – список объектов с полями:
-                                    - "name" – название ингредиента (максимально конкретное, например: "куриная грудка", "рис белый отварной", "масло подсолнечное").  
-                                    - "grams" – примерный вес этого ингредиента в граммах.  
-                                    - "confidence" – уровень уверенности от 0 до 1.  
-                            - "notes" – любые дополнительные наблюдения (например: "похоже на порцию из ресторана", "масло для жарки учтено ~10 г").  
+Отвечай СТРОГО в JSON-формате, без лишнего текста, без markdown-обёрток:
+{
+  "dish_ru": "...",
+  "dish_en": "...",
+  "portion_grams": 0,
+  "ingredients": [
+    {"name_ru": "...", "name_en": "...", "grams": 0, "confidence": 0.0}
+  ],
+  "kcal": 0,
+  "protein_g": 0,
+  "fat_g": 0,
+  "carbs_g": 0,
+  "notes": "..."
+}
 
-                            3. Если сложно определить точный вес, укажи диапазон через "grams_low" и "grams_high" вместо "grams".  
-                            4. Если в блюде может быть несколько вариантов ингредиентов – перечисли их через массив, указав "alt" (альтернативный вариант).  
-                            5. Общая сумма веса ингредиентов должна быть примерно равна "portion_grams".  
+Требования:
+- name_en должен быть максимально конкретным (например "boiled white rice", "chicken breast grilled")
+- сумма grams ингредиентов должна примерно равняться portion_grams
+- kcal/protein_g/fat_g/carbs_g — оценка на всю порцию
 
-                            Пример формата ответа:
-                            {
-                            "ru" : {
-                            "dish": "Сырники с ягодами",
-                            "portion_grams": 310,
-                            "ingredients": [
-                                {"name": "творог 5%", "grams": 220, "confidence": 0.85},
-                                {"name": "яйцо куриное", "grams": 50, "confidence": 0.75},
-                                {"name": "мука пшеничная", "grams": 30, "confidence": 0.65},
-                                {"name": "масло сливочное (для жарки)", "grams": 10, "confidence": 0.55}
-                            ],
-                            "notes": "Похоже на 3 шт. сырников; тарелка ~24 см; ягоды и сахарная пудра незначительные по весу"
-                            },
-                            "en": {
-                            "dish": "Cottage Cheese Pancakes with Berries",
-                            "portion_grams": 310,
-                            "ingredients": [
-                                {"name": "cottage cheese 5%", "grams": 220, "confidence": 0.85},
-                                {"name": "chicken egg", "grams": 50, "confidence": 0.75},
-                                {"name": "wheat flour", "grams": 30, "confidence": 0.65},
-                                {"name": "butter (for frying)", "grams": 10, "confidence": 0.55}
-                            ],
-                            "notes": "Looks like 3 pcs of cottage cheese pancakes; plate ~24 cm; berries and powdered sugar are negligible in weight"
-                            }
-                            }
-
-                            Не вычисляй калории и БЖУ – только состав и вес ингредиентов! Также учитывай дополнительную информацию от пользователя если она есть
-                            """
+Учитывай дополнительную информацию от пользователя если она есть.
+"""
                 },
                 {
                 "role": "user",
                 "content": [
                     {
-                        "type": "text", 
-                        "text": f"""   
-                                {user_prompt}
+                        "type": "text",
+                        "text": f"""
+                                {user_prompt}{hint_block}
                                 """
                         
                         
@@ -104,15 +132,16 @@ def get_dish_ingredients(base64_image, user_prompt='', model='gpt-4.1-mini'):
                 ]
             }
         ],
-        temperature=0
+        temperature=0,
+        max_tokens=800,
+        response_format={"type": "json_object"},
     )
     return [response.usage.prompt_tokens, response.usage.completion_tokens],  response.choices[0].message.content
 
-async def async_get_dish_ingredients(base64_image: str, user_prompt='', model='gpt-4.1-mini') -> str:
-    """
-    Асинхронная обёртка над синхронной get_dish_ingredients(base64_image).
-    """
+async def async_get_dish_ingredients(base64_image: str, user_prompt='', model='gpt-4.1-mini',
+                                     ingredients_hint: str = '') -> str:
+    """Асинхронная обёртка над get_dish_ingredients (опционально с hint от шага 1)."""
     def _call():
-        return get_dish_ingredients(base64_image, user_prompt, model)
+        return get_dish_ingredients(base64_image, user_prompt, model, ingredients_hint)
 
     return await asyncio.to_thread(_call)

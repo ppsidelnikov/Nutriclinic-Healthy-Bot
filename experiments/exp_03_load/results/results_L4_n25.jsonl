@@ -1,0 +1,352 @@
+{"ts": 1778072386.9652421, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2152.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072387.5634642, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 2350.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072388.100404, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2485.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072388.6110847, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 2593.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072389.1188474, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 2151.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072389.6577299, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2092.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072390.1442862, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 2041.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072390.6590223, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 2045.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072391.2172444, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 2096.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072391.816445, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 2156.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072392.8179488, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2156.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072393.7953181, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 1977.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072394.4351027, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2217.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072395.603259, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 1806.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072396.4701643, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2033.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072397.0459988, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2608.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072397.5811257, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2743.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072398.0770686, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 2472.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072398.6173317, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 2144.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072399.1046565, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 2633.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072399.6794066, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 2629.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072400.36195, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 3314.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072401.0010862, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 7202.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072402.280301, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 4695.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072402.2803633, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 4199.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072402.9086826, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 3804.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072404.0981662, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 3095.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072404.1006467, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 3097.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072405.1209831, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2839.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072405.723009, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 3441.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072406.289095, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2187.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072407.1277559, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 3026.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072407.8704445, "user_id": "load_user_20", "scenario": "misc", "ok": true, "latency_ms": 9.0, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072408.4493606, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 2153.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072410.22253, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 1772.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072411.295857, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 2412.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072411.4938147, "user_id": "load_user_10", "scenario": "photo", "ok": true, "latency_ms": 21346.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072412.0925236, "user_id": "load_user_12", "scenario": "photo", "ok": true, "latency_ms": 20873.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072412.0925436, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 1869.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072413.1242225, "user_id": "load_user_15", "scenario": "photo", "ok": true, "latency_ms": 20304.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072413.1242454, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 2901.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072413.6523519, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 3342.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072413.6525033, "user_id": "load_user_19", "scenario": "photo", "ok": true, "latency_ms": 18046.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072413.6525786, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 3429.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072414.8608384, "user_id": "load_user_1", "scenario": "photo", "ok": true, "latency_ms": 11950.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072415.8189034, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 1797.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072417.447237, "user_id": "load_user_14", "scenario": "photo", "ok": true, "latency_ms": 13346.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072417.4472687, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2974.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072417.4472837, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 3436.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072417.4477232, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 3238.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072417.4501867, "user_id": "load_user_4", "scenario": "misc", "ok": true, "latency_ms": 2.9, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072418.1577835, "user_id": "load_user_13", "scenario": "photo", "ok": true, "latency_ms": 14058.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072418.3380556, "user_id": "load_user_2", "scenario": "photo", "ok": true, "latency_ms": 11965.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072419.3459365, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 5213.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072419.352532, "user_id": "load_user_3", "scenario": "misc", "ok": true, "latency_ms": 5.6, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072420.4463198, "user_id": "load_user_18", "scenario": "photo", "ok": true, "latency_ms": 15323.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072420.4463646, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2998.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072420.4463801, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 2655.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072420.9912322, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 2970.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072420.9937923, "user_id": "load_user_12", "scenario": "misc", "ok": true, "latency_ms": 2.5, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072422.0270505, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 1580.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072422.607132, "user_id": "load_user_15", "scenario": "text", "ok": true, "latency_ms": 2160.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072423.9493747, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 1921.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072424.9753234, "user_id": "load_user_8", "scenario": "photo", "ok": true, "latency_ms": 12882.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072424.9753633, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 2368.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072425.5990906, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 2991.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072426.6554701, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 1679.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072427.217074, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 2241.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072427.231893, "user_id": "load_user_2", "scenario": "misc", "ok": true, "latency_ms": 575.6, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072428.139209, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 1483.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072428.7117128, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2055.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072429.2115736, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 1993.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072429.7463877, "user_id": "load_user_5", "scenario": "photo", "ok": true, "latency_ms": 32163.6, "error": null, "kind": "photo", "parsed_ok": false}
+{"ts": 1778072429.7464085, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2528.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072430.3960235, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 2256.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072431.6123252, "user_id": "load_user_6", "scenario": "photo", "ok": true, "latency_ms": 34029.6, "error": null, "kind": "photo", "parsed_ok": false}
+{"ts": 1778072431.6123893, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2900.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072431.6124134, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 2900.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072432.1930642, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 2980.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072433.3967211, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 4183.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072433.3967488, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 3648.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072434.0855987, "user_id": "load_user_8", "scenario": "misc", "ok": true, "latency_ms": 1.6, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072435.04243, "user_id": "load_user_16", "scenario": "photo", "ok": true, "latency_ms": 14050.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072435.717033, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 1748.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072437.4867187, "user_id": "load_user_22", "scenario": "photo", "ok": true, "latency_ms": 17039.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072437.4867933, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 1769.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072438.3290966, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2139.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072438.8600397, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2262.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072439.8601344, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 2230.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072440.3741865, "user_id": "load_user_9", "scenario": "photo", "ok": true, "latency_ms": 13156.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072440.3742104, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2044.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072440.9123259, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 3252.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072441.535156, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 2572.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072441.8921776, "user_id": "load_user_15", "scenario": "photo", "ok": true, "latency_ms": 12679.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072443.0871997, "user_id": "load_user_21", "scenario": "photo", "ok": true, "latency_ms": 13874.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072443.087269, "user_id": "load_user_0", "scenario": "photo", "ok": true, "latency_ms": 17460.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072443.087285, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 2176.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072443.6094646, "user_id": "load_user_19", "scenario": "photo", "ok": true, "latency_ms": 11994.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072443.6094859, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 2695.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072444.1634133, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2628.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072444.7096322, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 3174.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072445.6008217, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 3695.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072445.6040072, "user_id": "load_user_17", "scenario": "misc", "ok": true, "latency_ms": 2.8, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072446.1476214, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 2537.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072447.1474695, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2208.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072448.0825708, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 1656.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072449.1332579, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 1985.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072449.1402693, "user_id": "load_user_13", "scenario": "photo", "ok": true, "latency_ms": 14603.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072450.473069, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 3325.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072450.4731088, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 3325.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072451.1177545, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 3034.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072451.1223857, "user_id": "load_user_6", "scenario": "misc", "ok": true, "latency_ms": 3.3, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072451.749963, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 4602.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072452.676815, "user_id": "load_user_7", "scenario": "photo", "ok": true, "latency_ms": 16335.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072452.6768422, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 2203.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072453.3009486, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2827.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072453.973904, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 2223.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072455.039535, "user_id": "load_user_11", "scenario": "photo", "ok": true, "latency_ms": 17551.5, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072455.0395555, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 2362.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072455.7475262, "user_id": "load_user_3", "scenario": "photo", "ok": true, "latency_ms": 16886.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072455.7475462, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2446.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072456.373573, "user_id": "load_user_20", "scenario": "photo", "ok": true, "latency_ms": 14838.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072456.3735967, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 3072.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072457.0747764, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 3100.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072458.1459715, "user_id": "load_user_24", "scenario": "photo", "ok": true, "latency_ms": 24193.9, "error": null, "kind": "photo", "parsed_ok": false}
+{"ts": 1778072458.1460295, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 1771.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072460.7538788, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 2127.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072461.4272192, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 2547.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072462.6149938, "user_id": "load_user_23", "scenario": "photo", "ok": true, "latency_ms": 12141.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072462.615055, "user_id": "load_user_19", "scenario": "photo", "ok": true, "latency_ms": 12141.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072462.6150646, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 3379.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072462.615076, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 3401.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072462.7785237, "user_id": "load_user_15", "scenario": "photo", "ok": true, "latency_ms": 13644.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072463.6294506, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2873.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072464.1951382, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 3439.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072464.7545228, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 2135.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072465.3057275, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 2388.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072465.9591053, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 5203.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072467.392117, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 4449.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072467.3925824, "user_id": "load_user_18", "scenario": "photo", "ok": true, "latency_ms": 14083.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072467.3926167, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 4430.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072468.117082, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 3921.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072468.8267415, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 5195.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072470.1636, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 4857.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072470.1795068, "user_id": "load_user_9", "scenario": "photo", "ok": true, "latency_ms": 15790.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072470.1925313, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 4232.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072470.1951869, "user_id": "load_user_2", "scenario": "misc", "ok": true, "latency_ms": 2801.4, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072471.2867627, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 3167.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072471.8693292, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 3750.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072472.458346, "user_id": "load_user_15", "scenario": "text", "ok": true, "latency_ms": 2294.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072473.0492527, "user_id": "load_user_22", "scenario": "photo", "ok": true, "latency_ms": 15974.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072473.0492723, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 2808.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072473.8494234, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2561.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072474.3572192, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 3069.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072474.8646772, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2982.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072474.8675354, "user_id": "load_user_8", "scenario": "misc", "ok": true, "latency_ms": 2.7, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072475.7430522, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 1893.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072476.32713, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2477.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072476.9080691, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2043.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072477.1050556, "user_id": "load_user_4", "scenario": "photo", "ok": true, "latency_ms": 17343.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072477.7013314, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 1956.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072478.530577, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 2203.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072478.5944767, "user_id": "load_user_2", "scenario": "misc", "ok": true, "latency_ms": 1.5, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072479.444489, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 1742.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072479.9476523, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 2245.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072480.4541798, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 2752.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072480.9646657, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 2433.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072481.48056, "user_id": "load_user_11", "scenario": "photo", "ok": true, "latency_ms": 16725.4, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072481.4805944, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 3778.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072482.6330044, "user_id": "load_user_15", "scenario": "text", "ok": true, "latency_ms": 2684.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072483.731321, "user_id": "load_user_7", "scenario": "photo", "ok": true, "latency_ms": 13566.9, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072483.7313452, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 2250.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072484.6643686, "user_id": "load_user_23", "scenario": "photo", "ok": true, "latency_ms": 13376.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072484.664406, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 2031.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072485.347181, "user_id": "load_user_10", "scenario": "photo", "ok": true, "latency_ms": 12888.5, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072485.3472004, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 2714.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072485.9845145, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 3011.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072486.6722436, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2940.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072487.2205656, "user_id": "load_user_3", "scenario": "photo", "ok": true, "latency_ms": 12863.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072487.2205868, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2554.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072488.0544677, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 2074.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072488.591707, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 2611.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072489.1255267, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 3145.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072489.631794, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 3652.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072490.228852, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 3007.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072490.897157, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2841.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072491.4863632, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 3430.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072492.0681465, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 2940.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072492.5850532, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 2952.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072492.5884771, "user_id": "load_user_7", "scenario": "misc", "ok": true, "latency_ms": 519.0, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072493.5789135, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 3349.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072493.579051, "user_id": "load_user_15", "scenario": "text", "ok": true, "latency_ms": 4451.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072495.1842875, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 1605.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072496.052525, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 2471.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072497.285804, "user_id": "load_user_13", "scenario": "photo", "ok": true, "latency_ms": 15804.9, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072497.2858346, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2798.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072497.2863495, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 3127.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072498.1676903, "user_id": "load_user_8", "scenario": "photo", "ok": true, "latency_ms": 15534.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072498.167718, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2763.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072498.7411225, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 4134.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072499.685831, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2098.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072500.2663205, "user_id": "load_user_4", "scenario": "photo", "ok": true, "latency_ms": 14275.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072500.2663496, "user_id": "load_user_1", "scenario": "photo", "ok": true, "latency_ms": 13593.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072500.2663574, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2980.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072500.8167646, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 3526.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072501.8051767, "user_id": "load_user_2", "scenario": "photo", "ok": true, "latency_ms": 13212.5, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072501.8051941, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 3062.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072501.8052063, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2726.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072502.308793, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 3471.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072502.8276672, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 3141.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072503.3268428, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 3640.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072504.20812, "user_id": "load_user_23", "scenario": "photo", "ok": true, "latency_ms": 10629.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072504.2081404, "user_id": "load_user_15", "scenario": "text", "ok": true, "latency_ms": 2402.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072504.7694623, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 2459.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072505.3175972, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 5050.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072506.1853373, "user_id": "load_user_17", "scenario": "photo", "ok": true, "latency_ms": 13600.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072506.7795837, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 6512.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072508.0067863, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 2688.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072508.006835, "user_id": "load_user_6", "scenario": "photo", "ok": true, "latency_ms": 10717.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072508.006842, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 3231.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072508.6903906, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2980.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072509.321961, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 3562.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072509.922354, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 3142.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072510.4995642, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 3719.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072511.439299, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 2116.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072511.9688303, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2645.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072512.811531, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2860.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072513.4263537, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 4735.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072514.651281, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 4728.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072514.6513112, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 4728.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072515.3231382, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 5999.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072515.9131794, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 6589.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072516.5610821, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 3748.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072517.1153905, "user_id": "load_user_15", "scenario": "text", "ok": true, "latency_ms": 5145.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072518.26908, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 2945.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072518.2691324, "user_id": "load_user_3", "scenario": "photo", "ok": true, "latency_ms": 10261.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072518.2691402, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 3615.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072519.485288, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 3571.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072519.4853337, "user_id": "load_user_8", "scenario": "photo", "ok": true, "latency_ms": 11477.5, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072519.4853399, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 4831.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072520.2952244, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2025.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072521.3274286, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 3057.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072521.3279583, "user_id": "load_user_21", "scenario": "photo", "ok": true, "latency_ms": 11405.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072521.3279688, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 3058.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072521.8650765, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2378.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072522.3491223, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2862.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072522.3512201, "user_id": "load_user_14", "scenario": "misc", "ok": true, "latency_ms": 4.5, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072522.8929846, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2596.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072523.4671063, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 2137.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072525.1992106, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 1732.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072525.2363577, "user_id": "load_user_12", "scenario": "photo", "ok": true, "latency_ms": 13096.4, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072526.230916, "user_id": "load_user_17", "scenario": "photo", "ok": true, "latency_ms": 13418.5, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072526.2309384, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 1726.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072527.2726057, "user_id": "load_user_10", "scenario": "photo", "ok": true, "latency_ms": 12619.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072527.272629, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 2073.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072527.892988, "user_id": "load_user_16", "scenario": "text", "ok": true, "latency_ms": 3516.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072529.1054916, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 2809.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072529.1055195, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 3573.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072530.024512, "user_id": "load_user_22", "scenario": "text", "ok": true, "latency_ms": 2751.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072530.6525278, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 2757.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072531.2757957, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 4002.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072531.8458502, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 2739.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072532.4944139, "user_id": "load_user_20", "scenario": "text", "ok": true, "latency_ms": 5221.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072533.979663, "user_id": "load_user_9", "scenario": "photo", "ok": true, "latency_ms": 11086.5, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072533.9797213, "user_id": "load_user_4", "scenario": "photo", "ok": true, "latency_ms": 11632.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072533.9797518, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 1485.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072533.98509, "user_id": "load_user_17", "scenario": "misc", "ok": true, "latency_ms": 4.6, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072534.6065972, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2112.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072535.2008657, "user_id": "load_user_15", "scenario": "photo", "ok": true, "latency_ms": 10001.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072535.2008839, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2526.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072536.1070805, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 3612.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072537.1000729, "user_id": "load_user_6", "scenario": "photo", "ok": true, "latency_ms": 10868.4, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072537.1000938, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 1744.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072538.1348171, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 2027.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072539.052482, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 2945.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072539.4653122, "user_id": "load_user_0", "scenario": "photo", "ok": true, "latency_ms": 10358.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072540.4678774, "user_id": "load_user_14", "scenario": "photo", "ok": true, "latency_ms": 11361.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072540.5557077, "user_id": "load_user_21", "scenario": "photo", "ok": true, "latency_ms": 11449.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072541.7778928, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 1803.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072543.4097626, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 1631.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072544.6774993, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 3608.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072544.6794138, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 2901.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072545.6324117, "user_id": "load_user_12", "scenario": "photo", "ok": true, "latency_ms": 10433.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072545.6324453, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 3131.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072546.1872833, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 14341.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072546.75937, "user_id": "load_user_23", "scenario": "photo", "ok": true, "latency_ms": 11558.4, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072546.7593977, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2075.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072547.2899942, "user_id": "load_user_16", "scenario": "photo", "ok": true, "latency_ms": 10914.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072547.2900124, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 2612.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072547.927367, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 3249.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072548.0480855, "user_id": "load_user_5", "scenario": "photo", "ok": true, "latency_ms": 20774.9, "error": null, "kind": "photo", "parsed_ok": false}
+{"ts": 1778072548.8468244, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 2086.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072549.3850365, "user_id": "load_user_3", "scenario": "text", "ok": true, "latency_ms": 3197.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072550.4132156, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 4780.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072550.4132683, "user_id": "load_user_13", "scenario": "photo", "ok": true, "latency_ms": 10504.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072550.4133003, "user_id": "load_user_17", "scenario": "photo", "ok": true, "latency_ms": 8635.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072550.4133177, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 4780.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072550.9729955, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 4212.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072551.547262, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 3619.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072552.1505942, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 3302.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072552.9828815, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 1435.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072553.71329, "user_id": "load_user_7", "scenario": "text", "ok": true, "latency_ms": 2739.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072554.411731, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 2260.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072554.5261507, "user_id": "load_user_22", "scenario": "photo", "ok": true, "latency_ms": 15461.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072554.77864, "user_id": "load_user_20", "scenario": "photo", "ok": true, "latency_ms": 13000.4, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072555.5155025, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 2532.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072556.166568, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 2452.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072556.9272373, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 2515.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072557.6358886, "user_id": "load_user_23", "scenario": "text", "ok": true, "latency_ms": 3922.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072558.3176188, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2801.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072558.3242488, "user_id": "load_user_5", "scenario": "misc", "ok": true, "latency_ms": 5.0, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072559.1181526, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 2188.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072559.6543567, "user_id": "load_user_15", "scenario": "photo", "ok": true, "latency_ms": 14976.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072559.6543775, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2725.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072560.2691605, "user_id": "load_user_13", "scenario": "text", "ok": true, "latency_ms": 1954.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072560.833959, "user_id": "load_user_8", "scenario": "text", "ok": true, "latency_ms": 2358.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072561.7492115, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2099.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072563.0811374, "user_id": "load_user_9", "scenario": "photo", "ok": true, "latency_ms": 8625.4, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072563.0812006, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 2811.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072563.0812254, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 2811.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072563.2820542, "user_id": "load_user_7", "scenario": "misc", "ok": true, "latency_ms": 4.0, "error": null, "kind": "misc", "history_len": 0, "has_profile": false}
+{"ts": 1778072563.9024198, "user_id": "load_user_21", "scenario": "photo", "ok": true, "latency_ms": 15979.2, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072563.9024515, "user_id": "load_user_11", "scenario": "photo", "ok": true, "latency_ms": 8390.8, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072563.9024596, "user_id": "load_user_12", "scenario": "text", "ok": true, "latency_ms": 2152.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072564.7289536, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 1644.7, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072565.2392204, "user_id": "load_user_4", "scenario": "text", "ok": true, "latency_ms": 2155.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072565.7883656, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 4038.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072567.039597, "user_id": "load_user_18", "scenario": "text", "ok": true, "latency_ms": 1800.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072568.233488, "user_id": "load_user_16", "scenario": "photo", "ok": true, "latency_ms": 11309.1, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072568.2335227, "user_id": "load_user_1", "scenario": "text", "ok": true, "latency_ms": 1948.0, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072569.105289, "user_id": "load_user_5", "scenario": "text", "ok": true, "latency_ms": 2065.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072569.6693268, "user_id": "load_user_2", "scenario": "text", "ok": true, "latency_ms": 2508.3, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072570.2672465, "user_id": "load_user_0", "scenario": "text", "ok": true, "latency_ms": 3227.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072571.142133, "user_id": "load_user_14", "scenario": "text", "ok": true, "latency_ms": 2907.9, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072571.7344124, "user_id": "load_user_17", "scenario": "text", "ok": true, "latency_ms": 2626.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072572.336924, "user_id": "load_user_19", "scenario": "text", "ok": true, "latency_ms": 2069.6, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072573.1700807, "user_id": "load_user_21", "scenario": "text", "ok": true, "latency_ms": 2027.5, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072574.2848623, "user_id": "load_user_11", "scenario": "text", "ok": true, "latency_ms": 2550.1, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072574.2858396, "user_id": "load_user_6", "scenario": "text", "ok": true, "latency_ms": 3143.2, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072575.250318, "user_id": "load_user_20", "scenario": "photo", "ok": true, "latency_ms": 13500.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072575.2503374, "user_id": "load_user_9", "scenario": "text", "ok": true, "latency_ms": 2911.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072576.3400455, "user_id": "load_user_13", "scenario": "photo", "ok": true, "latency_ms": 9880.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072576.340084, "user_id": "load_user_22", "scenario": "photo", "ok": true, "latency_ms": 15505.7, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072576.3401017, "user_id": "load_user_15", "scenario": "photo", "ok": true, "latency_ms": 9190.0, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072576.3401086, "user_id": "load_user_10", "scenario": "text", "ok": true, "latency_ms": 1983.4, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072576.991234, "user_id": "load_user_24", "scenario": "text", "ok": true, "latency_ms": 4391.8, "error": null, "kind": "text", "rag_hit": true, "rag_chunks": 3, "history_len": 0, "has_profile": false}
+{"ts": 1778072577.1389563, "user_id": "load_user_23", "scenario": "photo", "ok": true, "latency_ms": 10099.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072580.429188, "user_id": "load_user_4", "scenario": "photo", "ok": true, "latency_ms": 7258.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072580.6336002, "user_id": "load_user_12", "scenario": "photo", "ok": true, "latency_ms": 10366.3, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072580.9986908, "user_id": "load_user_8", "scenario": "photo", "ok": true, "latency_ms": 10733.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072581.5336769, "user_id": "load_user_7", "scenario": "photo", "ok": true, "latency_ms": 11024.6, "error": null, "kind": "photo", "parsed_ok": true}
+{"ts": 1778072600.6994138, "user_id": "load_user_3", "scenario": "photo", "ok": true, "latency_ms": 41580.7, "error": null, "kind": "photo", "parsed_ok": false}

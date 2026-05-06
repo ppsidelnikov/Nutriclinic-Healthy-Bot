@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from db.models import MessageLog, FoodModelAnswerLog, Ingredient
 import json
 from aiogram.types import Message, CallbackQuery
