@@ -17,11 +17,12 @@ from aiogram.fsm.context import FSMContext
 from db.db_write import insert_message_log, insert_food_model_answer_log, answer_and_log
 from db.db import AsyncSessionLocal
 from db.minio_io import ensure_bucket, upload_file
-from services.yandex_gpt import get_answer_from_gpt_text, calc_price
+from services.text_chat import get_answer_from_gpt_text, calc_price
 from services.chat_history import get_history, add_message
 from services.user_profile import get_user_profile, format_profile_context
 from services.rag import search_knowledge, format_rag_context
-from services.chat_gpt_api import async_get_dish_ingredients, async_identify_ingredients
+from services.photo_recognition import async_get_dish_ingredients, async_identify_ingredients
+from handlers.food_diary_handlers import build_meal_keyboard, remember_entry
 
 router = Router(name="gpt_answer")
 
@@ -105,10 +106,37 @@ async def _state_timeout(state: FSMContext, message: Message, expected_state: St
         await message.answer("Время ожидания истекло. Попробуйте снова командой /analyze_dish.")
 
 
-async def run_photo_analysis(message: Message, *, b64: str, user_prompt: Optional[str]) -> None:
+async def _execute_side_effect(message: Message, action: dict) -> None:
+    """Выполняет UI-действие, запрошенное tool'ом (например показать клавиатуру)."""
+    kind = action.get("type")
+
+    if kind == "show_meal_keyboard":
+        from handlers.food_diary_handlers import build_meal_keyboard
+        temp_id   = action["temp_id"]
+        dish_name = action.get("dish_name", "блюдо")
+        kcal      = action.get("kcal", 0)
+        portion   = action.get("portion_g")
+
+        portion_part = f", {int(portion)} г" if portion else ""
+        text = (
+            f"Распознал: <b>{dish_name}</b>{portion_part}\n"
+            f"КБЖУ: {kcal:.0f} ккал, "
+            f"Б {action.get('protein_g', 0):.1f} / "
+            f"Ж {action.get('fat_g', 0):.1f} / "
+            f"У {action.get('carbs_g', 0):.1f}\n\n"
+            f"Куда записать?"
+        )
+        await message.answer(text, parse_mode="HTML", reply_markup=build_meal_keyboard(temp_id))
+
+
+async def run_photo_analysis(message: Message, *, b64: str, user_prompt: Optional[str],
+                             with_save_buttons: bool = False) -> None:
     """V6 двухпроходный pipeline (см. §3.1 диссертации):
        шаг 1 — модель сама распознаёт ингредиенты;
        шаг 2 — оценка КБЖУ с распознанным списком как hint.
+
+    with_save_buttons=True добавляет inline-кнопки выбора приёма пищи —
+    используется в /add. Через /analyze_dish и обычное фото — только анализ.
     """
     await message.bot.send_chat_action(message.chat.id, ChatAction.TYPING)
 
@@ -197,7 +225,47 @@ async def run_photo_analysis(message: Message, *, b64: str, user_prompt: Optiona
         f"Вес порции: {int(portion_grams) if portion_grams else '—'} г",
         fmt_total("КБЖУ", model_kcal),
     ]
-    await answer_and_log(message, "\n\n".join(parts), parse_mode="HTML")
+    final_text = "\n\n".join(parts)
+
+    # Кнопки выбора приёма пищи показываются только в режиме /add (with_save_buttons).
+    # Через /analyze_dish или фото без команды — только информационный ответ.
+    keyboard = None
+    if with_save_buttons:
+        temp_id = f"photo_{message.chat.id}_{message.message_id}"
+        remember_entry(temp_id, {
+            "dish_name": dish_name_ru or dish_name or "Блюдо",
+            "portion_g": portion_grams or None,
+            "kcal":      model_kcal["kcal"],
+            "protein_g": model_kcal["protein"],
+            "fat_g":     model_kcal["fat"],
+            "carbs_g":   model_kcal["carbs"],
+            "source":    "photo",
+        })
+        keyboard = build_meal_keyboard(temp_id)
+
+    await answer_and_log(message, final_text, parse_mode="HTML", reply_markup=keyboard)
+
+    # Сохраняем в историю диалога — чтобы последующие текстовые вопросы
+    # ("это хороший обед?") видели результат анализа как контекст.
+    try:
+        # Псевдо-сообщение от пользователя: коротко описывает что было отправлено
+        user_caption = user_prompt or "[фото блюда]"
+        if dish_name_ru or dish_name:
+            user_caption = f"[фото] {dish_name_ru or dish_name}"
+        await add_message(message.chat.id, "user", user_caption)
+
+        # Ответ ассистента: компактный plain-text без HTML-тегов
+        assistant_text = (
+            f"Распознал: {dish_name_ru or dish_name or 'блюдо'}, "
+            f"порция {int(portion_grams) if portion_grams else '—'} г. "
+            f"КБЖУ: {model_kcal['kcal']:.0f} ккал, "
+            f"белки {model_kcal['protein']:.1f} г, "
+            f"жиры {model_kcal['fat']:.1f} г, "
+            f"углеводы {model_kcal['carbs']:.1f} г."
+        )
+        await add_message(message.chat.id, "assistant", assistant_text)
+    except Exception as e:
+        print("photo history save error:", repr(e))
 
 
 @router.message(Command("cancel"))
@@ -265,11 +333,23 @@ async def answer_gpt(message: Message):
             user_context = format_profile_context(profile)
             rag_context  = format_rag_context(rag_chunks)
 
+            # Дневник питания на сегодня → передаём LLM как контекст (вариант B).
+            # Бот теперь может естественно учитывать прогресс к дневной цели.
+            from services.food_diary import get_daily_progress, format_progress_for_llm
+            from handlers.base_handlers import CAPABILITIES_FOR_LLM
+            target_kcal = float(profile.daily_calories_target) if profile and profile.daily_calories_target else None
+            diary_progress = await get_daily_progress(user_id, target_kcal)
+            diary_context = format_progress_for_llm(diary_progress)
+
             gpt_answer, usage = await get_answer_from_gpt_text(
                 message.text,
                 history=history,
                 user_context=user_context,
                 rag_context=rag_context,
+                diary_context=diary_context,
+                capabilities_context=CAPABILITIES_FOR_LLM,
+                telegram_id=user_id,
+                enable_tools=True,
             )
 
             # Сохраняем оба сообщения в историю
@@ -292,7 +372,16 @@ async def answer_gpt(message: Message):
             except Exception as e:
                 print("text_query log error:", repr(e))
 
-            await answer_and_log(message, gpt_answer)
+            side_effects = usage.get("side_effects", [])
+            # Если есть UI-действие (клавиатура meal_type) — текст LLM пропускаем,
+            # пользователь и так получит подтверждение от бота с правильным контекстом.
+            has_ui_followup = any(a.get("type") == "show_meal_keyboard" for a in side_effects)
+
+            if gpt_answer.strip() and not has_ui_followup:
+                await answer_and_log(message, gpt_answer)
+
+            for action in side_effects:
+                await _execute_side_effect(message, action)
             return
         await answer_and_log(message, "Отправьте фото блюда или напишите вопрос нутрициологу.")
     except Exception as e:

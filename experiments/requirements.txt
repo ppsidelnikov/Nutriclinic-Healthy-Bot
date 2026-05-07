@@ -1,0 +1,13 @@
+openai>=1.0.0
+sqlalchemy[asyncio]>=2.0
+asyncpg
+pgvector
+python-dotenv
+rank-bm25
+sentence-transformers
+ragas==0.1.21
+langchain-openai>=0.1.0
+datasets
+pandas
+tiktoken
+pypdf

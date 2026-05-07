@@ -1,0 +1,9 @@
+model,simple_n,simple_MAPE,medium_n,medium_MAPE,complex_n,complex_MAPE,overall_MAPE
+gpt-4.1,77,33.0,79,38.1,145,35.7,35.6
+gpt-4.1-mini,77,41.8,79,39.3,145,35.6,38.1
+gpt-4o,77,48.4,70,49.0,119,34.7,42.4
+gemini-2.5-pro,77,44.0,79,40.4,145,44.2,43.2
+gpt-4.1-mini + hint,77,40.2,79,44.9,144,58.3,50.1
+claude-sonnet-4-6,77,70.4,79,56.3,144,42.2,53.2
+gemini-2.5-flash,76,58.3,79,64.4,145,56.0,58.8
+claude-haiku-4-5,77,110.2,79,92.9,145,49.3,76.3

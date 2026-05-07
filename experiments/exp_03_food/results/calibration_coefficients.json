@@ -1,0 +1,249 @@
+{
+  "linear_global": {
+    "kcal": {
+      "a": 1.0616351953211183,
+      "b": 30.19694134522871
+    },
+    "protein": {
+      "a": 1.2094638678838283,
+      "b": 1.3672773804514549
+    },
+    "fat": {
+      "a": 0.9692423275902529,
+      "b": 3.2113740009845397
+    },
+    "carbs": {
+      "a": 0.8556399340652078,
+      "b": 4.641907826164989
+    }
+  },
+  "linear_per_cluster": {
+    "simple": {
+      "kcal": {
+        "a": 1.1478690752793692,
+        "b": 3.335028254320818
+      },
+      "protein": {
+        "a": 1.4928540868675733,
+        "b": 0.15581568446828697
+      },
+      "fat": {
+        "a": 1.0259759917755211,
+        "b": 0.3377126707520226
+      },
+      "carbs": {
+        "a": 0.7214968463928492,
+        "b": 2.391455782775062
+      }
+    },
+    "medium": {
+      "kcal": {
+        "a": 0.8283204047745839,
+        "b": 55.211479318147724
+      },
+      "protein": {
+        "a": 1.4635320953852942,
+        "b": -1.305601682390245
+      },
+      "fat": {
+        "a": 0.8004489113123044,
+        "b": 1.4918030496049344
+      },
+      "carbs": {
+        "a": 0.7322218053837574,
+        "b": 8.444951485664522
+      }
+    },
+    "complex": {
+      "kcal": {
+        "a": 1.0468954666322658,
+        "b": 57.265256422194
+      },
+      "protein": {
+        "a": 1.088752161090657,
+        "b": 3.919936660321863
+      },
+      "fat": {
+        "a": 0.9405755251005549,
+        "b": 6.933095309498441
+      },
+      "carbs": {
+        "a": 0.8502134660557515,
+        "b": 5.53796949465473
+      }
+    }
+  },
+  "log_global": {
+    "kcal": {
+      "a": 0.8292220486386749,
+      "b": 1.0238160068529965
+    },
+    "protein": {
+      "a": 0.9653305250038853,
+      "b": 0.23020716317392442
+    },
+    "fat": {
+      "a": 0.7882078659576666,
+      "b": 0.5980298470261247
+    },
+    "carbs": {
+      "a": 0.8014843045763305,
+      "b": 0.6072084130305315
+    }
+  },
+  "log_per_cluster": {
+    "simple": {
+      "kcal": {
+        "a": 0.810322121794931,
+        "b": 0.8803427825180603
+      },
+      "protein": {
+        "a": 0.9725076566744467,
+        "b": 0.15180965308296357
+      },
+      "fat": {
+        "a": 0.907738467515582,
+        "b": -0.027582068733344345
+      },
+      "carbs": {
+        "a": 0.7486407820076441,
+        "b": 0.4801585786379361
+      }
+    },
+    "medium": {
+      "kcal": {
+        "a": 0.8038860233020355,
+        "b": 1.0913896846511832
+      },
+      "protein": {
+        "a": 0.9592083704810047,
+        "b": 0.2190151380737897
+      },
+      "fat": {
+        "a": 0.6388843310839839,
+        "b": 0.6727519353757533
+      },
+      "carbs": {
+        "a": 0.7175715199242666,
+        "b": 0.9123166917498202
+      }
+    },
+    "complex": {
+      "kcal": {
+        "a": 0.6398636841981058,
+        "b": 2.193157979649008
+      },
+      "protein": {
+        "a": 0.8746586293660279,
+        "b": 0.5287003912636954
+      },
+      "fat": {
+        "a": 0.3604951600668271,
+        "b": 1.8920675677702596
+      },
+      "carbs": {
+        "a": 0.7442679887812609,
+        "b": 0.8175722985397162
+      }
+    }
+  },
+  "train_size": 210,
+  "test_size": 91,
+  "test_metrics": [
+    {
+      "variant": "baseline (без коррекции)",
+      "MAE_kcal": 83.96,
+      "MAPE_kcal": 32.15,
+      "wMAPE_kcal": 33.55,
+      "daily_MAPE_kcal": 21.57,
+      "MAE_protein": 6.26,
+      "MAPE_protein": 33.82,
+      "wMAPE_protein": 35.64,
+      "daily_MAPE_protein": 23.71,
+      "MAE_fat": 6.76,
+      "MAPE_fat": 79.26,
+      "wMAPE_fat": 49.8,
+      "daily_MAPE_fat": 34.47,
+      "MAE_carbs": 7.02,
+      "MAPE_carbs": 37.99,
+      "wMAPE_carbs": 38.44,
+      "daily_MAPE_carbs": 24.26
+    },
+    {
+      "variant": "linear OLS, global",
+      "MAE_kcal": 79.36,
+      "MAPE_kcal": 48.14,
+      "wMAPE_kcal": 31.71,
+      "daily_MAPE_kcal": 16.98,
+      "MAE_protein": 6.73,
+      "MAPE_protein": 91.94,
+      "wMAPE_protein": 38.27,
+      "daily_MAPE_protein": 26.58,
+      "MAE_fat": 6.58,
+      "MAPE_fat": 350.57,
+      "wMAPE_fat": 48.51,
+      "daily_MAPE_fat": 31.03,
+      "MAE_carbs": 7.04,
+      "MAPE_carbs": 65.03,
+      "wMAPE_carbs": 38.51,
+      "daily_MAPE_carbs": 21.45
+    },
+    {
+      "variant": "linear OLS, per-cluster",
+      "MAE_kcal": 77.78,
+      "MAPE_kcal": 42.21,
+      "wMAPE_kcal": 31.08,
+      "daily_MAPE_kcal": 17.69,
+      "MAE_protein": 6.66,
+      "MAPE_protein": 86.16,
+      "wMAPE_protein": 37.88,
+      "daily_MAPE_protein": 26.23,
+      "MAE_fat": 5.85,
+      "MAPE_fat": 129.62,
+      "wMAPE_fat": 43.12,
+      "daily_MAPE_fat": 27.95,
+      "MAE_carbs": 7.17,
+      "MAPE_carbs": 64.21,
+      "wMAPE_carbs": 39.25,
+      "daily_MAPE_carbs": 21.73
+    },
+    {
+      "variant": "log-space, global",
+      "MAE_kcal": 81.14,
+      "MAPE_kcal": 35.71,
+      "wMAPE_kcal": 32.42,
+      "daily_MAPE_kcal": 18.21,
+      "MAE_protein": 6.01,
+      "MAPE_protein": 36.71,
+      "wMAPE_protein": 34.17,
+      "daily_MAPE_protein": 21.61,
+      "MAE_fat": 6.48,
+      "MAPE_fat": 112.18,
+      "wMAPE_fat": 47.77,
+      "daily_MAPE_fat": 32.64,
+      "MAE_carbs": 6.76,
+      "MAPE_carbs": 36.33,
+      "wMAPE_carbs": 37.0,
+      "daily_MAPE_carbs": 22.28
+    },
+    {
+      "variant": "log-space, per-cluster",
+      "MAE_kcal": 83.66,
+      "MAPE_kcal": 36.21,
+      "wMAPE_kcal": 33.43,
+      "daily_MAPE_kcal": 18.66,
+      "MAE_protein": 6.06,
+      "MAPE_protein": 37.56,
+      "wMAPE_protein": 34.48,
+      "daily_MAPE_protein": 21.84,
+      "MAE_fat": 6.57,
+      "MAPE_fat": 85.15,
+      "wMAPE_fat": 48.38,
+      "daily_MAPE_fat": 32.15,
+      "MAE_carbs": 6.94,
+      "MAPE_carbs": 37.86,
+      "wMAPE_carbs": 37.98,
+      "daily_MAPE_carbs": 22.35
+    }
+  ]
+}

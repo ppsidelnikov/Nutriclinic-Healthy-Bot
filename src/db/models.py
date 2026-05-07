@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Numeric, UniqueConstraint, JSON, func
+from sqlalchemy import Column, Integer, BigInteger, String, DateTime, Numeric, Float, UniqueConstraint, JSON, func
 from sqlalchemy.orm import declarative_base
 from pgvector.sqlalchemy import Vector
 from datetime import datetime
@@ -88,4 +88,33 @@ class Ingredient(Base):
     protein_g = Column(Numeric(10, 3), nullable=True)
     fat_g = Column(Numeric(10, 3), nullable=True)
     carbs_g = Column(Numeric(10, 3), nullable=True)
+
+
+class WeightLog(Base):
+    """Журнал веса пользователя — несколько записей за день допускаются,
+    последняя считается текущим весом."""
+    __tablename__ = "weight_log"
+
+    id           = Column(BigInteger, primary_key=True)
+    telegram_id  = Column(String, nullable=False, index=True)
+    weight_kg    = Column(Float, nullable=False)
+    recorded_at  = Column(DateTime, nullable=False, server_default=func.now())
+
+
+class FoodDiary(Base):
+    """Дневник питания пользователя — записи о съеденном, разбитые по приёмам пищи."""
+    __tablename__ = "food_diary"
+
+    id           = Column(BigInteger, primary_key=True)
+    telegram_id  = Column(String, nullable=False, index=True)
+    eaten_at     = Column(DateTime, nullable=False, server_default=func.now())
+    meal_type    = Column(String(20), nullable=False)   # breakfast / lunch / dinner / snack
+    dish_name    = Column(String, nullable=False)
+    portion_g    = Column(Float, nullable=True)
+    kcal         = Column(Float, nullable=False)
+    protein_g    = Column(Float, nullable=True)
+    fat_g        = Column(Float, nullable=True)
+    carbs_g      = Column(Float, nullable=True)
+    source       = Column(String(20), nullable=False, server_default="photo")  # photo / manual
+    created_at   = Column(DateTime, nullable=False, server_default=func.now())
 

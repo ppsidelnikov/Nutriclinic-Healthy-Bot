@@ -92,7 +92,7 @@ async def _maybe_compress(chat_id: int, history: List[Dict[str, str]]) -> List[D
         return history
 
     # Импорт здесь, чтобы избежать циклических зависимостей
-    from services.yandex_gpt import get_answer_from_gpt_text
+    from services.text_chat import get_answer_from_gpt_text
 
     to_compress = history[:COMPRESS_CHUNK]
     keep = history[COMPRESS_CHUNK:]

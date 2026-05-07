@@ -1,10 +1,23 @@
+"""
+Распознавание блюда по фото — продакшен-конфигурация V6 из §3.1 диссертации.
+
+Pipeline (двухпроходный):
+  1. async_identify_ingredients(b64) — короткий vision-вызов, список ингредиентов;
+  2. async_get_dish_ingredients(b64, ingredients_hint) — основной vision-вызов
+     с подсказкой от шага 1, возвращает структурированный JSON (dish_ru,
+     dish_en, portion_grams, ingredients, kcal, protein_g, fat_g, carbs_g).
+
+Эталонный эксперимент: experiments/exp_03_food/configs/v6_two_pass*.py
+Модель — gpt-4.1-mini через ProxyAPI.
+"""
+
 import sys
 from pathlib import Path
 from openai import OpenAI
 import asyncio
 
 
-PARENT_DIR = Path(__file__).parent.parent 
+PARENT_DIR = Path(__file__).parent.parent
 sys.path.append(str(PARENT_DIR))
 
 from config.config import config

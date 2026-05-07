@@ -93,8 +93,11 @@ services:
       DB_ECHO: "0"
     volumes:
       - ./docs:/app/docs:ro
-      # Маунтим всю папку нагрузочника живьём — чтобы правки кода сразу
-      # подхватывались внутри контейнера без пересборки образа.
+      # Живой mount исходного кода — правки в src/ и alembic/ подхватываются
+      # без пересборки образа. Подходит для разработки и dev-режима.
+      - ./src:/app/src
+      - ./alembic:/app/alembic
+      # Маунт нагрузочного эксперимента
       - ./experiments/exp_03_load:/app/experiments/exp_03_load
     depends_on:
       postgres:

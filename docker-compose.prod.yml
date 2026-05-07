@@ -1,0 +1,52 @@
+# Продакшен-оверлей docker-compose.
+# Запуск:
+#   docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+#
+# Отличия от dev-конфигурации:
+#  - Убраны live-маунты исходников (код берётся из образа)
+#  - Убраны pgadmin, redisinsight (admin-интерфейсы не нужны в проде)
+#  - Закрыты внешние порты у БД и Redis (доступ только внутри docker-сети)
+#  - bot не использует Telegram-fallback при недоступности сети — упадёт
+#    и Docker рестартанёт его (это правильное поведение в продакшене)
+
+services:
+
+  postgres:
+    # БД доступна только из docker-сети
+    ports: !reset []
+
+  minio:
+    # MinIO API доступен только из docker-сети, веб-консоль — наружу через nginx
+    ports: !reset []
+
+  pgadmin:
+    # В проде не запускаем
+    profiles: ["dev"]
+
+  redis:
+    ports: !reset []
+
+  redisinsight:
+    profiles: ["dev"]
+
+  bot:
+    # Используем код из образа — никаких live-маунтов
+    volumes: !reset
+      - ./docs:/app/docs:ro
+    environment:
+      # Вся продакшен-конфигурация в .env, здесь только переопределения
+      DB_HOST: postgres
+      S3_ENDPOINT: http://minio:9000
+      S3_FORCE_PATH_STYLE: "true"
+      REDIS_URL: redis://redis:6379
+      NO_PROXY: "minio,postgres,redis,localhost,127.0.0.1"
+      no_proxy: "minio,postgres,redis,localhost,127.0.0.1"
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      DB_ECHO: "0"
+      ENVIRONMENT: "production"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
